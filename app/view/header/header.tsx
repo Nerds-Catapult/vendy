@@ -64,7 +64,7 @@ const Header = () => {
     return (
         <div>
             <main className="p-2 w-full">
-                <section className="bg-gray-100 py-4 w-full pl-5 pr-5 rounded-md">
+                <section className=" py-4 w-full pl-5 pr-5 rounded-md sm:h-200px bg-red-400 ">
                     <div className="flex justify-between">
                         <div className="flex w-full">
                             <div className="flex items-center">
