@@ -1,5 +1,14 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
+model User {
+  id          String   @id @default(cuid())
+  phoneNumber String?  @unique
+  email       String?  @unique
+  // imageUrl    String?
+  age         String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt()
+}
 
 generator client {
   provider = "prisma-client-js"
@@ -31,15 +40,6 @@ model Business {
   @@unique([name, country], name: "business_identifier")
 }
 
-model User {
-  id          String   @id @default(cuid())
-  phoneNumber String?  @unique
-  email       String?  @unique
-  imageUrl    String?
-  age         String?
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt()
-}
 
 model Store {
   id          String   @id @default(cuid())

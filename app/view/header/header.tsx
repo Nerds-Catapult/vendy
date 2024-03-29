@@ -62,7 +62,7 @@ const Header = () => {
     };
 
     return (
-        <div>
+        <div className="">
             <main className="p-2 w-full">
                 <section className=" py-4 w-full pl-5 pr-5 rounded-md sm:h-200px bg-red-400 ">
                     <div className="flex justify-between">
@@ -145,6 +145,7 @@ const Header = () => {
                     }
                 </div>
             </section>
+
             </main>
         </div>
     );
