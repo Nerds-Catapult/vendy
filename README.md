@@ -37,5 +37,3 @@ Businesses can create online stores and list their products or services along wi
 ### Payment Integration
 Vendy supports various payment options, including mobile money, credit/debit cards, and cryptocurrency. It integrates with Payment Service Providers (PSPs) like Cellulant, DPO, and other International Money Transfer Operators (IMTOs) to process multinational currencies.
 
-## Note
-This README provides an overview of the features and functionality of the Vendy Marketplace application. The actual implementation may include additional features, modifications, or simplifications based on project requirements, user experience considerations, and development timelines.
