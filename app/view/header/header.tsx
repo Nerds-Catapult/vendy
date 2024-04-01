@@ -116,7 +116,7 @@ const Header = () => {
           {imagesWithNames.map((image, index) => (
             <div
               key={index}
-              className="flex bg-gray-100 items-center gap-2 rounded-lg hover:bg-gray-300 p-2 cursor-pointer"
+              className="flex flex-wrap justify-center md:justify-start bg-gray-100 items-center gap-2 rounded-lg hover:bg-gray-300 p-2 cursor-pointer"
             >
               <Image
                 src={image.image}
