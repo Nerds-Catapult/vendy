@@ -29,10 +29,16 @@ const Navbar = () => {
         style={{ borderRadius: "0.5rem", outline: "0", padding: "0.5rem" }}
       />
       <div className="hidden md:flex md:w-auto md:space-x-4">
-        <Link href="/" className={buttonVariants({ variant: "ghost" })}>
+        <Link
+          href="/createStore"
+          className={buttonVariants({ variant: "ghost" })}
+        >
           Create your store
         </Link>
-        <Link href="/" className={buttonVariants({ variant: "ghost" })}>
+        <Link
+          href="/run-errands"
+          className={buttonVariants({ variant: "ghost" })}
+        >
           Run Errands
         </Link>
         <Link href="/" className={buttonVariants({ variant: "ghost" })}>
