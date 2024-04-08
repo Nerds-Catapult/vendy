@@ -1,3 +1,3 @@
 export default function RunErrands() {
-  return <div>Run Errands</div>;
+  return <div className={"h-full"}>Run Errands</div>;
 }

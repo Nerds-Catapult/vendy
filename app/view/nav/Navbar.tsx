@@ -52,7 +52,9 @@ const Navbar = () => {
             0
           </span>
         </div>
-        <Button>Sign Up</Button>
+        <Link href="/signUp">
+          <Button>Sign Up</Button>
+        </Link>
       </div>
       <div className="md:hidden">
         <GiHamburgerMenu
@@ -71,16 +73,18 @@ const Navbar = () => {
                 padding: "0.5rem",
               }}
             />
-            <Link href="/" className="block mb-2">
+            <Link href="/createStore" className="block mb-2">
               Create your store
             </Link>
-            <Link href="/" className="block mb-2">
+            <Link href="/run-errands" className="block mb-2">
               Run Errands
             </Link>
             <Link href="/" className="block mb-2">
               Contact Us
             </Link>
-            <Button className="w-full">Sign Up</Button>
+            <Link href="/signUp">
+              <Button className="w-full">Sign Up</Button>
+            </Link>
           </div>
         )}
       </div>

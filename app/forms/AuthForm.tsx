@@ -38,9 +38,9 @@ const ProfileForm = () => {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="flex flex-col space-y-4 w-full p-4"
+        className="flex flex-col space-y-4 w-full md:w-1/2 m-auto p-4 "
       >
-        <h1 className="text-2xl font-bold">Welcome back</h1>
+        <h1 className="text-3xl font-bold">Welcome Back</h1>
         <FormField
           control={form.control}
           name="email"
@@ -60,7 +60,7 @@ const ProfileForm = () => {
           name="password"
           render={({ field }) => (
             <FormItem>
-              <FormLabel>Email</FormLabel>
+              <FormLabel>Password</FormLabel>
               <FormControl>
                 <Input
                   placeholder="Enter your Password"
@@ -73,6 +73,7 @@ const ProfileForm = () => {
             </FormItem>
           )}
         />
+
         <Button type="submit" className="w-1/2 ">
           Submit
         </Button>

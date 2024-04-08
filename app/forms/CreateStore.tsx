@@ -28,6 +28,7 @@ function CreateStoreForm() {
       onSubmit={form.handleSubmit((data) => console.log(data))}
       className="flex flex-col space-y-4 w-full md:w-1/2 m-auto p-4 "
     >
+      <h1 className=" text-3xl font-bold">Create Store</h1>
       <Input
         placeholder="Enter your First Name"
         type="text"
