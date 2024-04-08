@@ -15,13 +15,15 @@ const Navbar = () => {
 
   return (
     <div className="bg-gray-300 flex items-center p-4 w-full justify-between">
-      <Image
-        src={vendy}
-        alt="vendy"
-        width={50}
-        height={50}
-        className=" w-auto h-auto"
-      />
+      <Link href="/">
+        <Image
+          src={vendy}
+          alt="vendy"
+          width={50}
+          height={50}
+          className=" w-auto h-auto"
+        />
+      </Link>
       <Input
         type="text"
         placeholder="Search"

@@ -1,10 +1,5 @@
-import createStor
+import React from "react";
 
-
-function Store(){
-    return(
-        <div>Errands</div>
-    )
+export default function page() {
+  return <div>page</div>;
 }
-
-export default Store;
